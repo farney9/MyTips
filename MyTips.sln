@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTips.Common", "MyTips.Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTips.Web", "MyTips.Web\MyTips.Web.csproj", "{A39FDF87-4822-464C-B0F8-EDC1FC379693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTips.Prism", "MyTips.Prism\MyTips.Prism\MyTips.Prism.csproj", "{3C9DFF2F-2C58-4157-9E1C-8E4A7D2D1A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTips.Prism", "MyTips.Prism\MyTips.Prism\MyTips.Prism.csproj", "{3C9DFF2F-2C58-4157-9E1C-8E4A7D2D1A09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTips.Prism.Android", "MyTips.Prism\MyTips.Prism.Android\MyTips.Prism.Android.csproj", "{B611DF41-94ED-4EA0-8BFF-7DDB3A80CA42}"
 EndProject
@@ -113,8 +113,8 @@ Global
 		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.AppStore|x64.Build.0 = Debug|Any CPU
 		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.AppStore|x86.ActiveCfg = Debug|Any CPU
 		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.AppStore|x86.Build.0 = Debug|Any CPU
-		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|ARM.Build.0 = Debug|Any CPU
 		{A39FDF87-4822-464C-B0F8-EDC1FC379693}.Debug|iPhone.ActiveCfg = Debug|Any CPU

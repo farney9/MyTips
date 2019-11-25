@@ -7,10 +7,25 @@
              Title="{Binding Title}">
     <StackLayout 
         Padding="10">
-        <ActivityIndicator
+        <!--<ActivityIndicator
             IsRunning="{Binding IsRunning}"
             VerticalOptions="CenterAndExpand">
-        </ActivityIndicator>        
+        </ActivityIndicator>-->
+        <ListView
+            HasUnevenRows="True"
+            ItemsSource="{Binding Tips}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
   
 </ContentPage>
